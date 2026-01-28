@@ -13,8 +13,8 @@ st.title("🚀 Dashboard de Investimentos - B3")
 # Criando um DataFrame para facilitar a gestão
 meus_fiis = {
     "Ticker": ["MXRF11.SA", "XPML11.SA", "BTHF11.SA", "PVBI11.SA", "VGHF11.SA"],
-    "Quantidade": [100, 10, 50, 5, 120],  # Exemplo de quantidades
-    "Preco_Medio": [10.20, 112.00, 9.80, 95.00, 9.10], # Exemplo de preços médios
+    "Quantidade": [15, 1, 1, 1, 8],  # Exemplo de quantidades
+    "Preco_Medio": [9.50, 110.00, 9.48, 81.00, 7.17], # Exemplo de preços médios
     "Setor": ["Papel", "Shopping", "Hedge Fund", "Lajes", "Hedge Fund"]
 }
 df_carteira = pd.DataFrame(meus_fiis)
