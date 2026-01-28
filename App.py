@@ -3,6 +3,8 @@ import yfinance as yf
 import pandas as pd
 import plotly.express as px
 
+st.title("🏙️ SSA-Invest | Dashboard de FIIs")
+
 # 1. Configurações Iniciais
 st.set_page_config(page_title="Minha Carteira FII", layout="wide")
 st.title("🚀 Dashboard de Investimentos - B3")
