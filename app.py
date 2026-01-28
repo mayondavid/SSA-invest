@@ -16,8 +16,8 @@ st.sidebar.write("Altere as quantidades e preços médios abaixo:")
 # Dados iniciais para não começar vazio
 dados_iniciais = {
     "Ticker": ["MXRF11.SA", "XPML11.SA", "BTHF11.SA", "PVBI11.SA", "VGHF11.SA"],
-    "Quantidade": [100, 10, 50, 5, 120],
-    "Preco_Medio": [10.20, 112.00, 9.80, 95.00, 9.10],
+    "Quantidade": [15, 0, 0, 0, 8],
+    "Preco_Medio": [9.49, 109.32, 9.42, 82.00, 7.20],
     "Setor": ["Papel", "Shopping", "Hedge Fund", "Lajes", "Hedge Fund"]
 }
 df_base = pd.DataFrame(dados_iniciais)
